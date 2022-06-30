@@ -643,7 +643,7 @@ div#content-d div.rightbox div#anim div#carrousel{
     
 }
 div#content-d div.rightbox div#anim{
-    margin-left: 30px;
+    margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -722,7 +722,8 @@ div#content-d div.bloc3 div#anim div#carrousel{
 }
 div#content-d div.bloc3 div#anim{
     
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -776,6 +777,8 @@ div#content-d div.bloc3 div#anim div#carrousel div.images:hover{
 div#content-d div.block4{
     width: 100%d;
     /* background-color: #FF1126; */
+    /* text-align: center; */
+
     
 
 }
@@ -784,8 +787,11 @@ div#content-d div.block4{
 div#content-d div.block4 div.video{
     
     
-    margin-left: 430px;
+    /* margin-left: 430px; */
+    /* margin-top: 50px; */
     margin-top: 50px;
+    margin-right: auto; 
+    margin-left: auto;
     margin-bottom: 50px;
     border: 2px solid #777;
     
