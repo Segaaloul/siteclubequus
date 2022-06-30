@@ -274,13 +274,22 @@ div#content-p div.box3 div.map {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 80px;
     /* padding-left: 10px; */
     
 
 }
 div#content-p div.box3 div.map a{
     margin: 0px;
+
 }
+
+div#content-p div.box3 div.map a iframe{
+    margin: 0px;
+    border-radius: 80px;
+
+}
+
 div#content-p div.box3 div.map:hover{
     border: 1px solid #777;
     
