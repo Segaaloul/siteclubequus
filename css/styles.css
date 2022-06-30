@@ -35,11 +35,13 @@ a{
     color:blue;
     opacity: 1;
     
-}
+}background-color:#BEC0C0 ;
 */
 /* -----------------header-------------- */
 body{
-    background-color:#BEC0C0 ;
+    
+    background: linear-gradient(30deg,#B7B7B7 ,white);
+    
 }
 
 header div#head div{
@@ -74,7 +76,8 @@ header div#head div.ktibadragon h1.bienvenue{
 }
 
 header{
-    background-color: #BEC0C0;
+    
+    background: linear-gradient(30deg,#BEC0C0 ,white);
     
 }
 
@@ -82,7 +85,7 @@ header{
 
 
 
-/* ---------- bar de navigation--------- */
+/* background-color: #BEC0C0;---------- bar de navigation--------- */
 div#barre nav.menu-nav ul li.shop a{
     font-size: 20px;
     color: white;
@@ -476,7 +479,9 @@ div#content div.box3
     /* background-color: green; */
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
+
 div#content div.box3 div.image{
     margin-right: 0px;
 }
@@ -497,6 +502,7 @@ div#content div.box4
     /* background-color:beige; */
     width: 100%;
     display: flex; 
+    margin-bottom: 30px;
 }
 div#content div.box4 div.text
 {
