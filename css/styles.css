@@ -452,17 +452,24 @@ div#content-s div.barre{
 
 
 div#content-s div.leftbox{
-    /* background-color: aqua; */
+     /* background-color: aqua;  */
     width: 100%;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
 div#content-s div.leftbox div.produit{
+    /* background-color: #FF1126; */
     padding-top: 50px;
-    padding-left: 50px;
-    margin-left: 20px;
+    /* padding-left: 50px; */
+    /* margin-left: 20px; */
     display: inline-block;
+}
+div#content-s div.leftbox div.produit img{
+    margin-inline-start: 70px;
 }
 div#content-s div.leftbox div.produit img:hover
 {
