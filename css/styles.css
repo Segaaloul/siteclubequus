@@ -1,6 +1,17 @@
 
 /*
 <img src="img/Capture d’écran 2022-06-28 081518.png" width="350px" >
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FF1126;
+    width: 100%;
+    height: 500px;
+
 p.younes{
     color: #ffffff;
     background-color: #EE1705;
@@ -384,10 +395,12 @@ div#content div
 div#content div.leftbox{
     
  
-    /* background-color: aqua; */
+    
     width: 100%;
     margin-top: 20px;
 }
+
+
 div#content div.rightbox{
     /* background-color: red; */
     width: 100%;
@@ -399,27 +412,28 @@ div#content div.rightbox{
 /* diapo acceuil*/
 
 
-div#content div.leftbox div#anim div#carrousel{
-    width:1400px;
+div#content div.leftbox div.anim div.carrousel{
+    width:98%;
     
     overflow: hidden;
     border: 2px solid #ddd;
     box-shadow: 15px 15px 15px -5px #777;
     margin-bottom: 50px;
-}
-div#content div.leftbox div#anim{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+
+}
+div#content div.leftbox div.anim{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
     
-  
     /* height: 50vh; */
 
 }
-div#content div.leftbox div#anim div#carrousel div.images{
+
+div#content div.leftbox div.anim div.carrousel div.images{
     display: flex;
     animation-duration: 15s;
     animation-name: mesImages;
