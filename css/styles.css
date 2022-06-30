@@ -689,6 +689,8 @@ div#content-d div.rightbox div#anim div#carrousel div.images{
 /* ---block3 de dragon--- */
 div#content-d div.bloc3{
     margin-top: 50px;
+    width: 100%;
+    background-color: aqua;
 }
 
 div#content-d div.bloc3 div.text
