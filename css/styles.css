@@ -180,7 +180,7 @@ div#content-p div.box2 div.president img.papa{
     margin: 5px;
     border: 1px solid #ccc;
     border-radius: 20px;
-    margin-left: 370px;
+    margin-left: 450px;
 }
 div#content-p div.box2 div.president img.mom{
     
@@ -203,13 +203,18 @@ div#content-p div.box2 div.president div.desc{
     
     padding: 15px;
     text-align: center;
-    margin-left: 370px;
+    margin-left: 450px;
 }
 div#content-p div.box2 div.president div.desc2{
     
     padding: 15px;
     margin-left: 60px;
     text-align: center;
+}
+
+div#content-p div.boxtext{
+    text-align: center;
+    background-color: #ddd;
 }
 
 
@@ -241,7 +246,30 @@ div#content-p div.rightbox{
     
     width: 100%;
     
-    background-color: blue;
+    /* background-color: blue; */
+    text-align: center;
+    
+    
+    
+}
+div#content-p div.qrcode{
+    
+    display: inline-block;
+   
+    /* background-color: #777; */
+    width: 80%;
+    margin-left: 250px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+    
+}
+div#content-p div.qrcode img{
+    margin-left: 200px;
+
+
 }
 
 /* -------------------------------------------------------contenu Acceuil------------- */
