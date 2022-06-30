@@ -254,37 +254,30 @@ div#content-p div.box3 div.map a:hover{
 
 
 
-div#content-p div.rightbox{
-    
-    width: 100%;
-    
-    /* background-color: blue; */
-    text-align: center;
-    
-    
-    
-}
-div#content-p div.rightbox div.qrcode{
-    
-    
-    display: inline-block;
-     /* background-color: #777;  */
-    width: auto;
-    /* margin-left: 250px; */
-    /* margin-right: 0px; */
-    /* margin-top: 20px; */
-    /* margin-bottom: 20px; */
-    
-
-    
-}
-div#content-p div.rightbox div.qrcode img{
+div#content-p div.rightbox div{
    
-    margin-left: auto;
-    margin-right: auto;
+    background-color: blue; 
+    display: inline-block;
+    margin-inline: 50px;
+    
+    
+}
+div#content-p div.rightbox div.qrcode1{
+
+      background-color: #777;  
+      margin-left: auto;
+     margin-right: 20px;
+}
+div#content-p div.rightbox div.qrcode1 img{
+    
+   
     /* margin-left: 200px; */
 
-
+}
+div#content-p div.rightbox div.qrcode2{
+    margin-left: 20px;
+    margin-right: auto;
+background-color: yellow;
 }
 
 /* -------------------------------------------------------contenu Acceuil------------- */
