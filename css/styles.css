@@ -256,9 +256,9 @@ div#content-p div.box3 div.map a:hover{
 
 div#content-p div.rightbox div{
    
-    background-color: blue; 
+    
     display: inline-block;
-    margin-inline: 50px;
+    
     
     
 }
@@ -270,11 +270,7 @@ div#content-p div.rightbox div.qrcode1{
      margin-bottom: 40px;
 
 }
-div#content-p div.rightbox div.qrcode1 img{
-    
-    /* margin-left: 200px; */
 
-}
 div#content-p div.rightbox div.qrcode2{
     margin-left: 20px;
     margin-right: auto;
