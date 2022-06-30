@@ -611,11 +611,11 @@ div#content-d div.rightbox{
 
 div#content-d div.rightbox div.text
 {
-    /* background-color: rosybrown; */
+     background-color: rosybrown; 
     width: 100%;
     display:inline-block;
-    margin-right: 50px;
-    margin-left: 30px;
+    margin-right: auto;
+    
 
    
 }
@@ -659,9 +659,7 @@ div#content-d div.rightbox div#anim div#carrousel div.images{
     animation-iteration-count: infinite;
 }
 
-div#content-d div.rightbox div#anim div#carrousel div.images:hover{
-    animation-play-state: paused;
-}
+
 
 @keyframes mesImagesd{
     0% {
@@ -695,10 +693,11 @@ div#content-d div.bloc3{
 
 div#content-d div.bloc3 div.text
 {
-    /* background-color: rosybrown; */
+     background-color: rosybrown; 
     width: 100%;
     display:inline-block;
-    margin-left: 30px;
+    margin-left: auto;
+
    
 }
 div#content-d div.bloc3 div.text p{
@@ -744,9 +743,7 @@ div#content-d div.bloc3 div#anim div#carrousel div.images{
     
 }
 
-div#content-d div.bloc3 div#anim div#carrousel div.images:hover{
-    animation-play-state: paused;
-}
+
 
 @keyframes mesImagesd{
     0% {
