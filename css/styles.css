@@ -264,20 +264,23 @@ div#content-p div.rightbox div{
 }
 div#content-p div.rightbox div.qrcode1{
 
-      background-color: #777;  
+      /*background-color: #777; */ 
       margin-left: auto;
      margin-right: 20px;
+     margin-bottom: 40px;
+
 }
 div#content-p div.rightbox div.qrcode1 img{
     
-   
     /* margin-left: 200px; */
 
 }
 div#content-p div.rightbox div.qrcode2{
     margin-left: 20px;
     margin-right: auto;
-background-color: yellow;
+    /*background-color: yellow;*/
+    margin-bottom: 40px;
+
 }
 
 /* -------------------------------------------------------contenu Acceuil------------- */
