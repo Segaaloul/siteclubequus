@@ -160,6 +160,18 @@ nav.menu-nav ul li.dragon:hover a{
 
 /* ------------------------------------------------contenu propos-------------- */
 
+div#content-p div.top1{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+}
+
+div#content-p div.top2{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    margin-bottom: 20px;
+}
 
 div#content-p div.leftbox{
     background-color: aqua;
@@ -230,24 +242,39 @@ div#content-p div.boxtext{
 }
 
 
+div#content-p div.box3{
+
+    /*background-color: #1B282E; */
+    padding-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 div#content-p div.box3 div.map {
     
-    /* background-color: #1B282E; */
-    padding-top: 60px;
+    background-color: red;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
     /* padding-left: 10px; */
-    text-align: center;
-    font-weight: bold;
+    
 
 }
 div#content-p div.box3 div.map a{
-    margin: 5px;
+    margin: 0px;
 }
-div#content-p div.box3 div.map a:hover{
+div#content-p div.box3 div.map:hover{
     border: 1px solid #777;
+    
 }
-
+div#content-p div.box3 div.map p{
+    font-family: Verdana,sans-serif;
+    font-size: 20px;
+    
+}
 
 
 
