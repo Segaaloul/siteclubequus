@@ -414,11 +414,22 @@ div#content div.leftbox{
 
 
 div#content div.rightbox{
-    /* background-color: red; */
+    /*background-color: red; */
     width: 100%;
     /* vertical-align: top; */
  
     
+}
+div#content div.rightbox div.texte{
+    width: 100%;
+    display: inline;
+}
+
+div#content div.rightbox div.texte h2{
+    text-align: center;
+}
+div#content div.rightbox div.texte h3{
+    text-align: center;
 }
 
 /* diapo acceuil*/
@@ -497,12 +508,17 @@ div#content div.box3 div.image{
 div#content div.box3 div.text{
     width: 100%;
     display: inline-block;
+    margin-right: 10px;
     
 }
 div#content div.box3 div.text h3{
    text-align: center;
     
 }
+div#content div.box3 div.text h2{
+    text-align: center;
+     
+ }
 
 
 
@@ -518,8 +534,13 @@ div#content div.box4 div.text
     /* background-color: #FF1126; */
     width: 100%;
     display: inline-block; 
+    margin-left: 10px;
 }
 div#content div.box4 div.text h3{
+    text-align: center;
+    
+}
+div#content div.box4 div.text h2{
     text-align: center;
     
 }
@@ -538,8 +559,13 @@ div#content div.box5 div.text
 {
     width: 100%;
     display: inline-block;
+    margin-right: 10px;
 }
 div#content div.box5 div.text h3
+{
+    text-align: center;
+}
+div#content div.box5 div.text h2
 {
     text-align: center;
 }
