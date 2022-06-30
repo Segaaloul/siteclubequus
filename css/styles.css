@@ -317,7 +317,10 @@ div#content div.rightbox{
 
 
 div#content div.leftbox div#anim div#carrousel{
-    width:1500px ;
+    /* width:1500px ; */
+    width: auto;
+    max-width: 1500px;
+    min-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
