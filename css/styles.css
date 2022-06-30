@@ -303,6 +303,9 @@ div#content div
 
 
 div#content div.leftbox{
+    
+    margin-left: auto;
+    margin-right: auto;
     /* background-color: aqua; */
     width: 100%;
     margin-top: 20px;
@@ -317,12 +320,8 @@ div#content div.rightbox{
 
 
 div#content div.leftbox div#anim div#carrousel{
-    /* width:1500px ; */
-    width: auto;
-    max-width: 1500px;
-    min-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1500px;
+    
     overflow: hidden;
     border: 2px solid #ddd;
     box-shadow: 15px 15px 15px -5px #777;
