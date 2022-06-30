@@ -313,13 +313,15 @@ div#content div.rightbox{
     /* background-color: red; */
     width: 100%;
     /* vertical-align: top; */
+ 
+    
 }
 
 /* diapo acceuil*/
 
 
 div#content div.leftbox div#anim div#carrousel{
-    width: 1460px;
+    width:1400px;
     
     overflow: hidden;
     border: 2px solid #ddd;
@@ -330,6 +332,10 @@ div#content div.leftbox div#anim{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
   
     /* height: 50vh; */
 
