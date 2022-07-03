@@ -572,7 +572,7 @@ div#content div.box5 div.text h2
 
 div#content div.box6
 {
-    width: 100%d;
+    width: 100%;
     display: flex;
     background-color: white;
     margin-bottom: 20px;
