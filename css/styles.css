@@ -127,6 +127,24 @@ nav.menu-nav ul li.btn a{
 
 
 /* bdeeet el fazet */
+nav.menu-nav ul li.dropdown{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    transition: height 0.4s ease-in-out;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%, 0% 100%);
+}
+nav.menu-nav ul li.dropdown button.bloc-top{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color:#BEC0C0;
+    padding: 20px;
+}
+
+
+
+
 
 
 /* oufet el fazet */
