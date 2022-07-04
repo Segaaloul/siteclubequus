@@ -50,26 +50,31 @@ header{
 }
 /* -------------------------------- */
 
+
+
 div.text{
     width: 100%;
     text-align: center;
     margin-top: 30vh;
 }
+
 div.text h3{
     font-family: Montserrat,sans-serif;
     padding: 5px;
 }
+
 div.text h1 strong{
     font-family: Montserrat,sans-serif;
     color: #1B282E;
 
-
 }
+
 div.text h1 {
     font-family: Montserrat,sans-serif;
     color: #666;
 
 }
+
 
 
 
