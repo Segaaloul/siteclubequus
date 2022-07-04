@@ -1,0 +1,209 @@
+
+
+/* -----------------header-------------- */
+body{
+    
+    background: linear-gradient(30deg,#B7B7B7 ,white);
+    
+}
+header div#head{
+     background-color: #1B282E; 
+    background-color: linear-gradient(30deg,#1B282E ,#B7B7B7);;
+}
+
+header div#head div{
+    display: inline-block;
+    
+}
+header div#head div.img{
+    /*background-color: aquamarine;*/
+    padding-left: 20px;
+    padding-top: 20px;
+   
+}
+
+header div#head div.ktiba{
+    /*background-color: blueviolet;*/
+    vertical-align: top;
+    padding-left: 20px;
+}
+header div#head div.ktiba h1.bienvenue{
+    font-size: 60px;
+    padding-top: 20px;
+    color: white;
+}
+
+header div#head div.ktibadragon{
+    /*background-color: blueviolet;*/
+    vertical-align: top;
+}
+header div#head div.ktibadragon h1.bienvenue{
+    font-size: 60px;
+    padding-top: 20px;
+    color: #FF1126;
+}
+
+header{
+    
+    background: linear-gradient(30deg,#BEC0C0 ,white);
+    
+}
+/* -------------------------------- */
+
+div.text{
+    width: 100%;
+    text-align: center;
+    margin-top: 30vh;
+}
+div.text h3{
+    font-family: Montserrat,sans-serif;
+    padding: 5px;
+}
+div.text h1 strong{
+    font-family: Montserrat,sans-serif;
+    color: #1B282E;
+
+
+}
+div.text h1 {
+    font-family: Montserrat,sans-serif;
+    color: #666;
+
+}
+
+
+
+
+
+
+
+
+
+/* -----------formulaire----------------- */
+div.formulaire{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#B7B7B7;
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20vh;
+
+}
+div.formulaire{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+   
+}
+
+div.formulaire .formbloc .formgroupe{
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+div.formulaire .formbloc .formgroupe input{
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid #1B282E;
+    color: #666;
+    font-size: 20px;
+    transition: 0.4 ease-in-out;
+}
+div.formulaire .formbloc .formgroupe:focus-within input,
+div.formulaire .formbloc .formgroupe.animation input{
+    top: 0px;
+    height: 150%;
+}
+
+
+
+div.formulaire .formbloc .formgroupe textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid #1B282E;
+    color: #666;
+    font-size: 20px;
+    transition: 0.4 ease-in-out;
+}
+div.formulaire .formbloc .bouton{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: #FF1126; */
+}
+div.formulaire .formbloc .bouton input{
+   margin-left: auto;
+   margin-right: auto;
+   background: none;
+    display: block;
+    width: auto;
+    padding: 15px 60px;
+    border: 3px solid #1B282E;
+    border-radius: 999px;
+    background-image: linear-gradient(to right,transparent 50%,#1B282E 50%,#666);
+    background-size: 200%;
+    
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+div.formulaire .formbloc .bouton input:hover{
+    transition-duration: 0.4s;
+    background-position: 100%;
+    border: 1px solid #666;
+    color:#B7B7B7 ;
+    
+}
+
+
+
+
+
+/* --------------------------------------------FOOTER-------------------------------- */
+
+
+footer{
+    background-color: #1B282E;
+
+}
+footer div{
+    display: inline-block;
+}
+
+footer div.contact{
+    padding: 10px;
+    background-color: none;
+}
+footer div.contact p{
+    color: white;
+}
+
+footer div.copy{
+    padding-left: 20px;
+    text-align: center;
+    
+}
+footer div.copy p{
+   color: white;
+}
+
+footer div.QR{
+    
+    padding-right: 20px;
+    padding-top: 10px;
+}
