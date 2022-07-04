@@ -142,6 +142,11 @@ nav.menu-nav ul li.dropdown button.bloc-top{
     padding: 20px;
 }
 
+nav.menu-nav ul li.dropdown span{
+    display: inline-block;
+    vertical-align: top;
+
+}
 
 
 
