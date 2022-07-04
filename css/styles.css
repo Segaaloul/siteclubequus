@@ -396,6 +396,7 @@ div#content-p div.rightbox div.qrcode2{
 div#content-p div.contacter{
     width: 100%;
     margin-bottom: 30px;
+    height: 50px;
 }
 div#content-p div.contacter div.contact{
     margin-right: auto;
