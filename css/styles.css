@@ -398,9 +398,21 @@ div#content-p div.contacter{
 div#content-p div.contacter button.contact{
     margin-right: auto;
     margin-left: auto;
-    background-color: #FF1126;
+    background-color: none;
 }
+div#content-p div.contacter button.contact h2{
+    color: #1B282E;
+}
+div#content-p div.contacter button.contact h2:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+div#content-p div.contacter button.contact:hover{
+    background-color: #1B282E;
+    transition-duration: 0.3s;
 
+
+}
 
 
 
