@@ -392,28 +392,25 @@ div#content-p div.rightbox div.qrcode2{
 
 }
 
-
 div#content-p div.contacter{
     width: 100%;
-    margin-bottom: 30px;
 }
-div#content-p div.contacter div.contact{
+div#content-p div.contacter button.contact{
     margin-right: auto;
     margin-left: auto;
     background-color: #B7B7B7;
     border: none;
 }
-div#content-p div.contacter div.contact h2{
-    font-family: Montserrat,sans-serif;
+div#content-p div.contacter button.contact h2{
     color: #1B282E;
     background-color: none;
 }
-div#content-p div.contacter div.contact:hover h2{
+div#content-p div.contacter button.contact:hover h2{
     color: white;
     transition-duration: 0.3s;
     
 }
-div#content-p div.contacter div.contact:hover{
+div#content-p div.contacter button.contact:hover{
     background-color: #1B282E;
     transition-duration: 0.3s;
 }
