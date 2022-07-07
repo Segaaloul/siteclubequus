@@ -61,7 +61,10 @@ header div#head div.ktiba{
     padding-left: 20px;
 }
 header div#head div.ktiba h1.bienvenue{
-    font-size: 60px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 70px;
+    color: rgb(44, 39, 39);  
     padding-top: 20px;
 }
 

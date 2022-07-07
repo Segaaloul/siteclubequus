@@ -65,7 +65,7 @@
             <?php
             $message = "Ce message vien du site clubequus hammamet 
             Mail de l'expéditeur : " . $_POST["email"] ."
-            Message : " .nl2br_POST["message"];
+            Message : " . $_POST["message"];
 
             if(isset($_POST["message"]))
             {
