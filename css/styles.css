@@ -158,9 +158,27 @@ nav.menu-nav ul li.btn{
 nav.menu-nav ul li.dragon{
     list-style-type: none;
     display: inline-block;
-    vertical-align: top;
-    
+    vertical-align: top; 
 }
+
+
+nav.menu-nav ul li.dragon div.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+nav.menu-nav ul li.dragon div.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+nav.menu-nav ul li.dragon:hover div.dropdown-content{
+    display: block;
+
+}
+
+
+
 
 nav.menu-nav ul li.btn:hover a{
     color: red;
