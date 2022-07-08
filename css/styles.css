@@ -1115,6 +1115,7 @@ footer div.contact{
 }
 footer div.contact p{
     color: white;
+    text-decoration: none;
 }
 
 footer div.copy{
