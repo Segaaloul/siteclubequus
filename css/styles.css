@@ -372,7 +372,7 @@ display:inline-flex;
 margin-left: auto;
 margin-right: auto;
 
-width: 50%;
+
 }
 div#content-p  div.texte h1{
     
@@ -384,7 +384,7 @@ div#content-p  div.texte h1{
 
 div#content-p  div.texte h1.hama{
    
-
+margin-right: 130px;
    margin-top: 0px;
    margin-bottom: -0px;
    font-weight: bold;
@@ -401,7 +401,8 @@ div#content-p  div.texte h1.magic{
    
     margin-top: 0px;
     margin-bottom: -0px;
-    margin-left: -50px;
+    margin-left: -95px;
+    margin-right: 0px;
     font-weight: bold;
     font-family: Georgia, serif;
     font-size: 60px;
