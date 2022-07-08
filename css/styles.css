@@ -528,9 +528,13 @@ div#content div.rightbox div.texte{
 
 div#content div.rightbox div.texte h2{
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
 }
 div#content div.rightbox div.texte h3{
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
 }
 
 /* diapo acceuil*/
@@ -614,10 +618,14 @@ div#content div.box3 div.text{
 }
 div#content div.box3 div.text h3{
    text-align: center;
+   font-weight: bold;
+   font-family: Georgia, serif;
     
 }
 div#content div.box3 div.text h2{
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
      
  }
 
@@ -639,10 +647,14 @@ div#content div.box4 div.text
 }
 div#content div.box4 div.text h3{
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
     
 }
 div#content div.box4 div.text h2{
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
     
 }
 
@@ -665,10 +677,14 @@ div#content div.box5 div.text
 div#content div.box5 div.text h3
 {
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
 }
 div#content div.box5 div.text h2
 {
     text-align: center;
+    font-weight: bold;
+    font-family: Georgia, serif;
 }
 
 div#content div.plus{
