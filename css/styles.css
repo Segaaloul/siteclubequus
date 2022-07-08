@@ -366,19 +366,52 @@ div#content-p div.box3{
 
     
 }
+
+div#content-p  div.texte{
+display:inline-flex;
+margin-left: auto;
+margin-right: auto;
+
+width: 50%;
+}
 div#content-p  div.texte h1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+div#content-p  div.texte h1.hama{
    
+
    margin-top: 0px;
    margin-bottom: -0px;
    font-weight: bold;
    font-family: Georgia, serif;
    font-size: 60px;
    color: rgb(44, 39, 39); 
-   animation:ease-in-out ;
+   animation:ease-out ;
    animation-name: hammamet;
-    animation-duration: 5s;
+    animation-duration: 7s;
      
 }
+div#content-p  div.texte h1.magic{
+
+   
+    margin-top: 0px;
+    margin-bottom: -0px;
+    margin-left: -50px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: #CFB53B;
+    animation:ease-out ;
+    animation-name: magic;
+     animation-duration: 7s;
+     
+      
+ }
 
 div#content-p  div.texte h1 span.magic{
     margin-top: 0px;
@@ -386,18 +419,27 @@ div#content-p  div.texte h1 span.magic{
     font-weight: bold;
     font-family: Georgia, serif;
     font-size: 60px;
-    color: #CFB53B;
+    
     
 }
 
 @keyframes hammamet {
     0%{
-        transform:translateX(-100px);
+        transform:translateX(-200px);
     }
     50%{
         transform:translateX(0px);
     }
 }
+@keyframes magic {
+    0%{
+        transform:translateX(200px);
+    }
+    50%{
+        transform:translateX(0px);
+    }
+}
+
 
 
 
