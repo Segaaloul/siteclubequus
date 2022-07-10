@@ -112,7 +112,21 @@ header div#head div.ktiba h1.bienvenue{
     font-size: 60px;
     color: rgb(44, 39, 39);  
     padding-top: 20px;
+
+    animation-name: titre;
+    animation-timing-function: ease-out;
+    animation-duration: 4s;
 }
+
+@keyframes titre {
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
 
 header div#head div.ktibadragon{
     /*background-color: blueviolet;*/
