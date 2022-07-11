@@ -120,7 +120,7 @@ header div#head div.ktiba h1.bienvenue{
 
 @keyframes titre {
     0%{
-        transform: translateX(200px);
+        transform: translateX(100px);
     }
     100%{
         transform: translateX(0px);
