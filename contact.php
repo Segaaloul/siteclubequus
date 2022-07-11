@@ -107,9 +107,7 @@
         <p>
             Numero: +216 55 848 890
         </p>
-        <p>
-            Email: clubequus@gmail.com
-        </p>
+        
     </div>
 
     <div class="copy">
