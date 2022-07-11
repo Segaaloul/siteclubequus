@@ -64,7 +64,7 @@ a{
 body{
     
     background: linear-gradient(30deg,#B7B7B7 ,white);
-    
+   
 }
 
 header div#head div{
@@ -141,6 +141,9 @@ header div#head div.ktibadragon h1.bienvenue{
     padding-top: 20px;
     padding-left: 5px;
     color: #FF1126;
+    animation-name: titre;
+    animation-timing-function: ease-out;
+    animation-duration: 4s;
 }
 
 header{
@@ -217,6 +220,8 @@ nav.menu-nav ul li.dragon a{
     background-color:#FF1126;
     padding: 22px;
     padding-top: 24px;
+    
+    
 }
 
 nav.menu-nav ul li.dragon a div{
