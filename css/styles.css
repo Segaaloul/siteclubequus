@@ -1271,6 +1271,12 @@ footer div.contact p{
     color: white;
     text-decoration: none;
 }
+footer div.contact p a{
+    color: white;
+    font-size: 18px;
+}
+
+
 
 footer div.copy{
     padding-left: 20px;
