@@ -102,6 +102,9 @@
 <footer>
     <div class="contact">
         <p>
+            <br>
+        </p>
+        <p>
             Numero: +216 50 111 079
         </p>
         <p>
