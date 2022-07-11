@@ -372,11 +372,11 @@ div#content-p div.box3{
     width: 100%;
    padding-top: 2px;
     margin-bottom: 50px;
-    /* text-align: center; */
-    /* background-image: url("../img/hammamet.jpg" ); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* height: 450px; */
+     text-align: center; 
+     background-image: url("../img/hammamet.jpg" ); 
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     height: 450px; 
 
     
 }
