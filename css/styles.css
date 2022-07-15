@@ -857,6 +857,89 @@ div#content div.video video{
 
 
 
+
+/* ------------------------contenue elevage------------------------------- */
+
+div#content-el .leftbox{
+    width: 100%;
+  
+}
+div#content-el .leftbox a{
+    display: block;
+   padding-left: 20px;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding-top: 20px;
+   /* background-color: #1B282E; */
+   width: 40%;
+   margin-bottom: 20px;
+   transition: all 2s;
+}
+div#content-el .leftbox a .case{
+    /* display:inline-flex; */
+    display: inline-flex;
+    align-items: center;
+
+ 
+}
+div#content-el .leftbox a .case h2{
+    
+     
+    /* background-color: #ddd; */
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-style: none;
+    
+    color: rgb(44, 39, 39); 
+    transition: all 2s;
+      
+}
+div#content-el .leftbox a .case img{
+    transition: all 2s;
+
+}
+
+
+
+
+/* hover */
+
+div#content-el .leftbox a:hover .case h2{
+    font-size: 40px;
+   cursor:pointer;
+}
+
+div#content-el .leftbox a:hover .case img{
+    width: 300px;
+    cursor:pointer;
+
+    /* transition-duration: 2s; */
+}
+
+div#content-el .leftbox a:hover{
+    width: 60%;
+    cursor:pointer;
+
+    /* transition-duration: 2s; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----------------------------------- contenu shop------------ */
 
 div#content-s div.barre{

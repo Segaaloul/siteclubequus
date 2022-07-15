@@ -1,0 +1,124 @@
+div.inscription form input {
+    display: block;
+
+}
+/* -----------formulaire----------------- */
+div.login{
+    margin-top: 50px;
+    
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color:#B7B7B7;  */
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20vh;
+
+}
+div.login{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+   
+}
+
+div.login .formbloc .formgroupe{
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+div.login .formbloc .formgroupe input{
+    
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid ;
+    border-bottom-color:#1B282E ;
+    color: #666;
+    font-size: 20px;
+    transition: 0.4 ease-in-out;
+}
+div.login .formbloc .formgroupe:focus-within input,
+div.login .formbloc .formgroupe.animation input{
+    top: 0px;
+    height: 150%;
+    transition: 0.8s;
+    border-bottom-color:red ;
+}
+
+
+
+div.login .formbloc .formgroupe textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid linear-gradient(to right,transparent 50%,red 50%,#666);
+    color: #666;
+    font-size: 20px;
+    transition: 0.4 ease-in-out;
+}
+div.login .formbloc .bouton{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    /* background-color: #FF1126; */
+}
+div.login .formbloc .bouton input{
+    
+   margin-left: auto;
+   margin-right: auto;
+   background: none;
+    display: block;
+    width: auto;
+    padding: 15px 60px;
+    border: 3px solid #1B282E;
+    border-radius: 999px;
+    background-image: linear-gradient(to right,transparent 50%,red 50%,#666);
+    background-size: 200%;
+    
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+div.login .formbloc .bouton input:hover{
+    transition-duration: 0.4s;
+    background-position: 100%;
+    border: 1px solid #666;
+    color:#B7B7B7 ;
+    
+}
+
+
+div.text{
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    /* background-color: #1B282E; */
+}
+
+
+div.text h1 strong{
+    font-family: Montserrat,sans-serif;
+    color: #1B282E;
+
+}
+
+div.text h1 {
+    font-family: Montserrat,sans-serif;
+    color: red;
+
+}

@@ -1,0 +1,313 @@
+
+
+body{
+     /* background-color: linear-gradient(30deg,#B7B7B7 50% ,#777);  */
+     background-color: #BEC0C0;
+    
+}
+
+header{
+    /* background-color: #777; */
+    width: 100%;
+    
+}
+
+header div#head div{
+    display: inline-block;
+    padding-right: 20px;
+
+    
+}
+header div#head div.img{
+    /*background-color: aquamarine;*/
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+header div#head div.ktiba{
+    /* background-color: blueviolet; */
+    vertical-align: top;
+    padding-left: 20px;
+    animation-name: tran;
+    animation-duration: 5s;
+}
+header div#head div.ktiba h1.bienvenue{
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 70px;
+    /* color: rgb(44, 39, 39);   */
+    padding-top: 20px;
+    /* background-color: #f1f1f1; */
+    margin-top: 100px;
+    animation-name: titre;
+    animation-timing-function: ease-out;
+    
+    animation-duration: 10s ;
+    animation-iteration-count:  infinite;
+   
+   
+}
+@keyframes titre {
+    
+    0%{
+        
+        color: #f1f1f1;
+    }
+    50%{
+        
+        color: rgb(44, 39, 39);
+    }
+    100%
+    {
+        color: #f1f1f1;
+    }
+    
+}
+@keyframes tran {
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+
+
+
+/* background-color: #BEC0C0;---------- bar de navigation--------- */
+div#barre nav.menu-nav ul li.shop a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color:#BEC0C0;
+    padding: 20px;
+
+}
+
+
+div#barre{
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+    width: auto;
+    /* padding-bottom: 10px; */
+   
+}
+
+div#barre nav.menu-nav {
+  overflow: hidden;
+  
+    background-color: #1B282E;
+    height: 40px;
+    vertical-align: top;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* width: 920px; */
+}
+
+
+nav.menu-nav ul li.btn a{
+
+    font-weight: bold;
+    font-family: Georgia, serif;  
+
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color:#BEC0C0;
+    padding: 10px;
+    padding-top: 10px;
+    
+  
+}
+
+
+/* bdeeet el fazet */
+
+
+
+
+
+/* oufet el fazet */
+
+nav.menu-nav ul li.dragon a{
+    font-weight: bold;
+    font-family: Georgia, serif; 
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color:#FF1126;
+    padding: 22px;
+    padding-top: 24px;
+    
+    
+}
+
+nav.menu-nav ul li.dragon a div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+nav.menu-nav ul li.dragon{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+nav.menu-nav ul li.dragon div.dropdown-content{
+    
+        display: none;
+        position: absolute;
+        margin-top: 20px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        transition-delay: .8s;
+}
+
+nav.menu-nav ul li.dragon div.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+nav.menu-nav ul li.dragon div.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+nav.menu-nav ul li.dragon:hover div.dropdown-content{
+    display: block;
+
+}
+
+
+
+
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    transition: 0.3s;
+}
+nav.menu-nav ul li.dragon:hover a{
+    color: red;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+header #head {
+    /* display: flex; */
+    
+}
+header div#head div.ktiba{
+    /*background-color: blueviolet;*/
+    /* vertical-align: top; */
+   
+}
+header div#head div.ktiba h1.bienvenue{
+    /*  
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: rgb(44, 39, 39);  
+    padding-top: 20px;
+
+    animation-name: titre;
+    animation-timing-function: ease-out;
+    animation-duration: 4s;
+    */
+}
+
+
+
+
+
+div.deco1{
+    margin-top: 20px;
+    width: 100%;
+   height: 20px;
+   
+   /* margin-left: 310px; */
+    background-color: red;
+}
+
+
+
+
+.box1{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    /* background-color:aqua; */
+    
+}
+.box1 div{
+    display: inline-block;
+}
+
+.box1 .inscription form{
+     /* background-color: bisque;  */
+    margin-top: 30px;
+    width: 22%;
+    
+}
+.box1 .contenu{
+    background-color: #BEC0C0;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.box1 .inscription form input{
+    display: block;
+    width: 210px;
+    margin: 10px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    border-bottom: 2px solid #777;
+}
+.box1 .inscription form input:hover{
+    height: 30px;
+    top: 0px;
+    border-bottom-color : red;
+    transition: 0.7s;
+}
+
+
+
+
+
+.box1 .inscription form .boutton input{
+    display: block;
+    width: 210px;
+    margin: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #777;
+    border-radius: 99px;
+    margin-top: 10px;
+}
+
+.box1 .inscription form .boutton input:hover{
+    height: 30px;
+    transition: 0.7s;
+    border-color: red;
+}
+
